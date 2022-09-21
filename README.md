@@ -20,6 +20,9 @@ python3 train.py --phi 0 --weights ../Linemod_and_Occlusion-001/COCO/efficientde
 
 ## Eval
 
+```
+python evaluate.py --phi 0 --weights checkpoints/<something.h5> --validation-image-save-path ../Linemod_and_Occlusion-001/ linemod ../Linemod_and_Occlusion-001/Linemod_preprocessed/ --object-id 4
+```
 
 
 ---
