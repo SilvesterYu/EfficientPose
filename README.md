@@ -10,9 +10,9 @@ pip install 'h5py==2.10.0' --force-reinstall
 pip install numpy==1.19.5
 ```
 
-## Train
+Using `CloneEfficientPose3` conda environment on my own machine
 
-`CloneEfficientPose3` conda environment on my own machine
+## Train
 
 ```
 python3 train.py --phi 0 --weights ../Linemod_and_Occlusion-001/COCO/efficientdet-d0.h5 linemod ../Linemod_and_Occlusion-001/Linemod_preprocessed/ --object-id 4
