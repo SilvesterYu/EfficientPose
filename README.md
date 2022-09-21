@@ -1,16 +1,18 @@
 ### silv edits:
 
-downgrade to cpu if cuda is not 10.0
+(1) create a new conda environment
+
+(2) downgrade to cpu if cuda is not 10.0
 ```
 pip install tensorflow-cpu==1.15
 ```
-solve version errors
+(3) solve version errors
 ```
 pip install 'h5py==2.10.0' --force-reinstall
 pip install numpy==1.19.5
 ```
 
-Using `CloneEfficientPose3` conda environment on my own machine
+Note for myself: use `CloneEfficientPose3` conda environment on my own machine
 
 ## Train
 
