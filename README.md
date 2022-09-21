@@ -9,6 +9,16 @@ solve version errors
 pip install 'h5py==2.10.0' --force-reinstall
 pip install numpy==1.19.5
 ```
+
+## Train
+
+```
+python3 train.py --phi 0 --weights ../Linemod_and_Occlusion-001/COCO/efficientdet-d0.h5 linemod ../Linemod_and_Occlusion-001/Linemod_preprocessed/ --object-id 4
+```
+
+## Eval
+
+
 ---
 # EfficientPose
 This is the official implementation of [EfficientPose](https://arxiv.org/abs/2011.04307). 
