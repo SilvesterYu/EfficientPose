@@ -1,3 +1,14 @@
+silv edits:
+downgrade to cpu if cuda is not 10.0
+```
+pip install tensorflow-cpu==1.15
+```
+solve version errors
+```
+pip install 'h5py==2.10.0' --force-reinstall
+pip install numpy==1.19.5
+```
+---
 # EfficientPose
 This is the official implementation of [EfficientPose](https://arxiv.org/abs/2011.04307). 
 We based our work on the Keras EfficientDet implementation [xuannianz/EfficientDet](https://github.com/xuannianz/EfficientDet) which again builds up on the great Keras RetinaNet implementation [fizyr/keras-retinanet](https://github.com/fizyr/keras-retinanet), the official EfficientDet implementation [google/automl](https://github.com/google/automl) and [qubvel/efficientnet](https://github.com/qubvel/efficientnet).
