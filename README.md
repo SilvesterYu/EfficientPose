@@ -12,6 +12,8 @@ pip install numpy==1.19.5
 
 ## Train
 
+`CloneEfficientPose`
+
 ```
 python3 train.py --phi 0 --weights ../Linemod_and_Occlusion-001/COCO/efficientdet-d0.h5 linemod ../Linemod_and_Occlusion-001/Linemod_preprocessed/ --object-id 4
 ```
